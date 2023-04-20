@@ -40,7 +40,8 @@ const Home = () => {
         </section>
 
         <section id='Features' className='features'>
-          features
+          <h2>Features of Kejoo app</h2>
+          <p>Kejoo provides many app features to make it easier for companies to manage company performance.</p>
         </section>
       </main>
     </div>
