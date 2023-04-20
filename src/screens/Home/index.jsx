@@ -31,7 +31,7 @@ const Home = () => {
               </div>
             </div>
           </article>
-          <article className='hero-img'>
+          <article className='banner'>
             <img 
               src={hero}
               alt='Hero Kejoo' 
