@@ -3,6 +3,8 @@ import './styles.sass';
 
 import Header from '../../components/Header';
 
+import hero from '../../assets/hero.svg'
+
 const Home = () => {
   return (
     <div className='home'>
@@ -10,7 +12,20 @@ const Home = () => {
 
       <main>
         <section className='hero'>
-        hero
+          <article className='content'>
+            <h1>Manage payroll & HR in your business so easily!</h1>
+            <p>Kejoo's complete features make it easier for HRDs to manage and increase employee productivity in various locations. Save time and money.</p>
+            <button>Get started</button>
+            <div>
+
+            </div>
+          </article>
+          <article className='hero-img'>
+            <img 
+              src={hero}
+              alt='Hero Kejoo' 
+            />
+          </article>
         </section>
 
         <section id='Features' className='features'>
