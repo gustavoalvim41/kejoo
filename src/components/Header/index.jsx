@@ -12,17 +12,19 @@ const Header = () => {
           alt='Logo Kejoo' 
         />
 
-        <ul>
-          <li>
-            <a>Features</a>
-          </li>
-          <li>
-            <a>Price</a>
-          </li>
-          <li>
-            <a>Blog</a>
-          </li>
-        </ul>
+        <nav>
+          <ul>
+            <li>
+              <a>Features</a>
+            </li>
+            <li>
+              <a>Price</a>
+            </li>
+            <li>
+              <a>Blog</a>
+            </li>
+          </ul>
+        </nav>
 
         <div className='buttonsWrapper'>
           <a>Login</a>
