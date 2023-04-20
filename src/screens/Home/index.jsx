@@ -40,7 +40,7 @@ const Home = () => {
         </section>
 
         <section id='Features' className='features'>
-        features
+          features
         </section>
       </main>
     </div>

@@ -14,18 +14,18 @@ const Header = () => {
 
         <ul>
           <li>
-            <a href='#Features'>Features</a>
+            <a>Features</a>
           </li>
           <li>
-            <a href='#'>Price</a>
+            <a>Price</a>
           </li>
           <li>
-            <a href='#'>Blog</a>
+            <a>Blog</a>
           </li>
         </ul>
 
         <div className='buttonsWrapper'>
-          <a href='#'>Login</a>
+          <a>Login</a>
           
           <button>Register</button>
         </div>
