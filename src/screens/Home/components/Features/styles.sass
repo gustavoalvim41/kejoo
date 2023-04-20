@@ -1,0 +1,84 @@
+@use '../../../../styles/variables'
+
+.features
+  width: 100%
+
+  margin: 15rem 0 0 0
+
+  display: flex
+  align-items: center
+  flex-direction: column
+
+  h2
+    font-size: 3.6rem
+    font-weight: 700
+    line-height: 4.6rem
+
+    color: variables.$black
+
+  .sub-title
+    width: 55rem
+
+    margin: 3.3rem 0 0 0
+
+    line-height: 2rem
+    letter-spacing: .2rem
+
+    text-align: center
+
+    color: variables.$secondary
+
+  .cards
+    width: 100%
+    margin: 8.8rem 0 0 0
+
+    display: flex
+    flex-wrap: wrap
+    align-items: stretch
+    gap: 2rem
+
+    .card
+      max-width: 28rem
+      padding: 3rem
+
+      display: flex
+      flex-direction: column
+      gap: 1.2rem
+
+      border-radius: 1.4rem
+
+      background-color: variables.$white
+
+      .box-icon
+        width: 6rem
+        min-height: 6rem
+
+        margin: 0 0 1.8rem 0
+
+        display: flex
+        align-items: center
+        justify-content: center
+
+        border-radius: 1.4rem
+
+        background-color: variables.$lightPrimary
+
+        .icon
+          color: variables.$primary
+      h3
+        font-size: 2rem
+        font-weight: 600
+        line-height: 2.8rem
+
+        letter-spacing: .2rem
+
+        color: variables.$black
+
+      p
+        font-size: 1.4rem
+        font-weight: 400
+        line-height: 2.4rem
+
+        letter-spacing: .2rem
+
+        color: variables.$secondary
