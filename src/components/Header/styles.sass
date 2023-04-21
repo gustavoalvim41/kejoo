@@ -18,7 +18,7 @@
 
   img
     cursor: pointer
-    
+
   ul
     display: flex
     align-items: center
@@ -48,15 +48,20 @@
       color: variables.$primary
       background-color: variables.$lightPrimary
 
+  .menu-mobile
+    display: none
+
+    padding: .6rem 1rem
+
+    background-color: transparent
+
   @media screen and (max-width: 1200px)
-    .container
-      width: 100%
-      max-width: 100%
 
-      padding: 0 2rem
+    ul
+      display: none
 
-      ul
-        display: none
+    .buttonsWrapper
+      display: none
 
-      .buttonsWrapper
-        display: none
+    .menu-mobile
+      display: block

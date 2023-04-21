@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.sass';
 
 import logo from '../../assets/logo.svg';
+import { BiMenu } from 'react-icons/bi';
 
 const Header = () => {
   return (
@@ -30,6 +31,13 @@ const Header = () => {
 
         <button>Register</button>
       </div>
+
+      <button className='menu-mobile'>
+        <BiMenu 
+          size={36}
+          color='#000'
+        />
+      </button>
     </header>
   )
 }
