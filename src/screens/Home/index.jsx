@@ -4,6 +4,7 @@ import './styles.sass';
 import Header from '../../components/Header';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import Benefits from './components/Benefits';
 
 const Home = () => {
   return (
@@ -15,9 +16,7 @@ const Home = () => {
 
         <Features />
         
-        <section className='benefits'>
-          under construction 🏗️ 🏗️
-        </section>
+        <Benefits />
       </main>
     </div>
   )

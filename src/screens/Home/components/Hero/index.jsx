@@ -27,12 +27,12 @@ const Hero = () => {
           </div>
         </div>
       </article>
-      <article className='banner'>
+      <div className='banner'>
         <img
           src={hero}
           alt='Banner Kejoo'
         />
-      </article>
+      </div>
     </section>
   )
 }
