@@ -15,10 +15,12 @@ const Hero = () => {
             <h3>10K+</h3>
             <p>Downloaded</p>
           </div>
+          <div className='line'></div>
           <div>
             <h3>4,3</h3>
             <p>User ratings</p>
           </div>
+          <div className='line'></div>
           <div>
             <h3>300+</h3>
             <p>Company joins</p>
