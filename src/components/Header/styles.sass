@@ -49,14 +49,17 @@
       background-color: variables.$lightPrimary
 
   .menu-mobile
+    height: 4.2rem
     display: none
-
-    padding: .6rem 1rem
 
     background-color: transparent
 
-  @media screen and (max-width: 1200px)
+@media screen and (max-width: 1200px)
+  .header
+    padding: 0 2rem
 
+@media screen and (max-width: 1060px)
+  .header
     ul
       display: none
 

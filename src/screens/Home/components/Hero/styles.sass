@@ -66,11 +66,23 @@
       min-width: 100%
       height: 100%
 
-  @media screen and (max-width: 1200px)
-    .hero
-      padding: 0 2rem
+@media screen and (max-width: 1200px)
+  .hero
+    padding: 0 2rem
 
-      grid-template-columns: 1fr
+    grid-template-columns: 1fr
 
-      .banner
-        display: none
+    .banner
+      display: none
+
+@media screen and (max-width: 1060px)
+  .hero
+    margin: 6rem 0 0 0
+
+    .content
+      h1
+        width: auto
+
+      .numbers
+        justify-content: flex-start
+        gap: 6rem

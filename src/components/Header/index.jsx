@@ -34,7 +34,7 @@ const Header = () => {
 
       <button className='menu-mobile'>
         <BiMenu 
-          size={36}
+          size={42}
           color='#000'
         />
       </button>
