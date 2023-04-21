@@ -7,7 +7,7 @@ import Features from './components/Features';
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='container'>
       <Header />
 
       <main>
@@ -16,7 +16,7 @@ const Home = () => {
         <Features />
         
         <section className='benefits'>
-          benefits
+          under construction 🏗️ 🏗️
         </section>
       </main>
     </div>
