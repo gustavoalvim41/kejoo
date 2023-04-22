@@ -28,10 +28,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 Siga as instruções abaixo:
   ```
   # Clone este repositório
-  $ git clone https://github.com/gustavoalvim41/dev-hunter.git
+  $ git clone https://github.com/gustavoalvim41/kejoo.git
 
   # Acesse a pasta do projeto no terminal/cmd
-  $ cd dev-hunter
+  $ cd kejoo
 
   # Instale as dependências
   $ yarn
