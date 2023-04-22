@@ -3,8 +3,8 @@ import './styles.sass';
 
 const Pricing = () => {
   return (
-    <section>
-      under construction
+    <section className='pricing'>
+      under construction 🚧 🚧 🚧
     </section>
   )
 }
