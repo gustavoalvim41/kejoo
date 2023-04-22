@@ -1,0 +1,38 @@
+@use '../../styles/variables'
+  
+.accordion
+  display: flex
+  flex-direction: column
+  gap: 1rem
+
+  .accordion-item
+    display: flex
+    flex-direction: column
+    gap: 2.6rem
+
+    .accordion-button
+      width: 100%
+
+      padding: 1.6rem 0
+
+      font-size: 2rem
+      font-weight: 600
+      line-height: 2.8rem
+
+      letter-spacing: .2rem
+      text-align: left
+
+      background-color: transparent
+      
+    .accordion-content
+      display: none
+
+      .content
+        font-size: 1.6rem
+        font-weight: 400
+        line-height: 2.5rem
+
+        color: variables.$secondary
+
+    .open
+      display: block
