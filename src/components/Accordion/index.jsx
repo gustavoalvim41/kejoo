@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './styles.sass';
 
+import { BiChevronDown } from 'react-icons/bi';
+
 const AccordionItem = ({index, title, content, isOpen, toggleAccordionItem}) => {
   return (
     <li className='accordion-item'>
@@ -9,6 +11,10 @@ const AccordionItem = ({index, title, content, isOpen, toggleAccordionItem}) => 
         onClick={() => toggleAccordionItem(index)}
       >
         {title}
+        <BiChevronDown 
+          size={32}
+          color='#000'
+        />
       </button>
 
       <div className={`accordion-content ${index === isOpen ? 'open' : ''}`}>

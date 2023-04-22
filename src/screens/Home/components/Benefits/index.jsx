@@ -9,11 +9,11 @@ const items = [
     content: 'Kejoo app can be used for monitoring on-site employees, remote employees, WFH employees, field teams, sales teams and marketing teams.'
   },
   {
-    title: 'Ease of Managing Employees',
+    title: 'More Practical and Productive',
     content: 'Kejoo app can be used for monitoring on-site employees, remote employees, WFH employees, field teams, sales teams and marketing teams.'
   },
   {
-    title: 'Ease of Managing Employees',
+    title: 'Avoid Employee Cheating',
     content: 'Kejoo app can be used for monitoring on-site employees, remote employees, WFH employees, field teams, sales teams and marketing teams.'
   },
 ]
