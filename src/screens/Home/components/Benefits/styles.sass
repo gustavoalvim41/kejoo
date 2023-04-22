@@ -10,8 +10,6 @@
   gap: 11.5rem
   
   article
-    min-width: 55rem
-
     display: flex
     flex-direction: column
     align-items: flex-start
@@ -44,5 +42,15 @@
 @media screen and (max-width: 1260px)
   .benefits
     margin: 9rem 0 0 0
+
+    grid-template-columns: 1fr
+    gap: 5rem
+
+    article
+      width: 100%
+
+      h2
+        font-size: 3.2rem
+        line-height: 4.2rem
 
 @media screen and (max-width: 1060px)
