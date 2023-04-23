@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './styles.sass';
 
 import Switch from '../../../../components/Switch';
+import { BiCheck } from 'react-icons/bi';
+
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true)
@@ -29,18 +31,48 @@ const Pricing = () => {
           </div>
           <ul>
             <li>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
               <p>Maximum 2 employees</p>
             </li>
             <li>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
               <p>1 attendance location</p>
             </li>
             <li>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
               <p>1 Administrator</p>
             </li>
             <li>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
               <p>Dedicated CS manager</p>
             </li>
             <li>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
               <p>Training online</p>
             </li>
           </ul>
@@ -58,19 +90,49 @@ const Pricing = () => {
           </div>
           <ul>
             <li>
-              <p>Item 1</p>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
+              <p>Maximum 2 employees</p>
             </li>
             <li>
-              <p>Item 2</p>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
+              <p>1 attendance location</p>
             </li>
             <li>
-              <p>Item 3</p>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
+              <p>1 Administrator</p>
             </li>
             <li>
-              <p>Item 4</p>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
+              <p>Dedicated CS manager</p>
             </li>
             <li>
-              <p>Item 5</p>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
+              <p>Training online</p>
             </li>
           </ul>
           <button>
@@ -87,19 +149,49 @@ const Pricing = () => {
           </div>
           <ul>
             <li>
-              <p>Item 1</p>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
+              <p>Maximum 2 employees</p>
             </li>
             <li>
-              <p>Item 2</p>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
+              <p>1 attendance location</p>
             </li>
             <li>
-              <p>Item 3</p>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
+              <p>1 Administrator</p>
             </li>
             <li>
-              <p>Item 4</p>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
+              <p>Dedicated CS manager</p>
             </li>
             <li>
-              <p>Item 5</p>
+              <div className='icon-box'>
+                <BiCheck 
+                  size={20}
+                  className='icon'
+                />
+              </div>
+              <p>Training online</p>
             </li>
           </ul>
           <button>

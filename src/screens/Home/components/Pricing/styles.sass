@@ -87,17 +87,29 @@
         gap: 2.2rem
 
         li
-          padding: .8rem // remove
-
           display: flex
           align-items: center
-          gap: 3rem
+          gap: 1rem
 
-          font-size: 1.6rem
-          font-weight: 600
-          line-height: 1.8rem
+          .icon-box
+            width: 2.6rem
+            height: 2.6rem
 
-          background-color: red
+            display: flex
+            align-items: center
+            justify-content: center
+
+            border-radius: 50%
+            background-color: variables.$primary
+
+            .icon
+              color: variables.$white
+
+          p
+            font-size: 1.6rem
+            font-weight: 500
+            line-height: 1.8rem
+            letter-spacing: .2rem
 
       button
         width: 100%
