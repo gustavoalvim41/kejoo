@@ -1,9 +1,8 @@
 @use '../../../../styles/variables'
+@use '../../../../styles/mixins'
   
 .pricing
-  width: 100%
-
-  margin: 15rem 0 0 0
+  @include mixins.Section
 
   display: flex
   align-items: center
@@ -25,7 +24,7 @@
       color: variables.$black
 
     p
-      width: 55rem
+      width: 68rem
 
       line-height: 2rem
       letter-spacing: .2rem
@@ -45,7 +44,6 @@
 
     .card
       width: 100%
-      min-width: 36rem
 
       padding: 3rem
 
@@ -114,3 +112,24 @@
 
         color: variables.$primary
         background-color: transparent
+
+@media screen and (max-width: 1260px)
+  .pricing
+    
+    .cards-pricing
+      margin: 6rem 0 0 0
+
+    .title-subtitle
+      p
+       width: auto
+
+    .cards-pricing
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+
+      .card
+        min-width: 36rem
+
+
+@media screen and (max-width: 1060px)

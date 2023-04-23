@@ -1,7 +1,8 @@
 @use '../../../../styles/variables'
+@use '../../../../styles/mixins'
   
 .benefits
-  margin: 15rem 0 0 0
+  @include mixins.Section
 
   display: grid
   grid-template-columns: 1fr 1fr
@@ -39,8 +40,6 @@
 
 @media screen and (max-width: 1260px)
   .benefits
-    margin: 9rem 0 0 0
-
     grid-template-columns: 1fr
     gap: 5rem
 

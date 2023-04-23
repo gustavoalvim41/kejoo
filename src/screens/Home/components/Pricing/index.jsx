@@ -13,7 +13,10 @@ const Pricing = () => {
         <p>Get the best package offer based on your business needs, regardless of the number of employees.</p>
       </div>
       
-      <Switch isMonthly={isMonthly} setIsMonthly={setIsMonthly} />
+      <Switch 
+        isMonthly={isMonthly} 
+        setIsMonthly={setIsMonthly} 
+      />
 
       <div className='cards-pricing'>
         <div className='card'>
@@ -26,19 +29,19 @@ const Pricing = () => {
           </div>
           <ul>
             <li>
-              <p>Item 1</p>
+              <p>Maximum 2 employees</p>
             </li>
             <li>
-              <p>Item 2</p>
+              <p>1 attendance location</p>
             </li>
             <li>
-              <p>Item 3</p>
+              <p>1 Administrator</p>
             </li>
             <li>
-              <p>Item 4</p>
+              <p>Dedicated CS manager</p>
             </li>
             <li>
-              <p>Item 5</p>
+              <p>Training online</p>
             </li>
           </ul>
           <button>
@@ -104,7 +107,6 @@ const Pricing = () => {
           </button>
         </div>
       </div>
-
     </section>
   )
 }

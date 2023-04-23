@@ -1,9 +1,8 @@
 @use '../../../../styles/variables'
+@use '../../../../styles/mixins'
 
 .hero
-  width: 100%
-
-  margin: 9rem 0 0 0
+  @include mixins.Section
 
   display: grid
   grid-template-columns: 1fr 1fr
@@ -101,7 +100,6 @@
 
 @media screen and (max-width: 1060px)
   .hero
-    margin: 6rem 0 0 0
 
     .content
       h1
