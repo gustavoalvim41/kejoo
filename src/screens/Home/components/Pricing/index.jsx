@@ -43,8 +43,64 @@ const Pricing = () => {
             Register Now
           </button>
         </div>
-        <div className='card'></div>
-        <div className='card'></div>
+        <div className='card'>
+          <div className='card-info'>
+            <h3>Standard</h3>
+            <div className='price'>
+              <h4>$9.99</h4>
+              <span>/Month</span>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <p>Item 1</p>
+            </li>
+            <li>
+              <p>Item 2</p>
+            </li>
+            <li>
+              <p>Item 3</p>
+            </li>
+            <li>
+              <p>Item 4</p>
+            </li>
+            <li>
+              <p>Item 5</p>
+            </li>
+          </ul>
+          <button>
+            Try it free
+          </button>
+        </div>
+        <div className='card'>
+          <div className='card-info'>
+            <h3>Pro</h3>
+            <div className='price'>
+              <h4>$19.99</h4>
+              <span>/Month</span>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <p>Item 1</p>
+            </li>
+            <li>
+              <p>Item 2</p>
+            </li>
+            <li>
+              <p>Item 3</p>
+            </li>
+            <li>
+              <p>Item 4</p>
+            </li>
+            <li>
+              <p>Item 5</p>
+            </li>
+          </ul>
+          <button>
+            Try it free
+          </button>
+        </div>
       </div>
 
     </section>
