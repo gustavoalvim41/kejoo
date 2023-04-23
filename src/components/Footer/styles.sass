@@ -1,6 +1,6 @@
 @use '../../styles/variables'
 @use '../../styles/mixins'
-  
+
 footer
   width: 100%
   height: 48rem
@@ -11,17 +11,73 @@ footer
   justify-content: center
 
   background-color: variables.$black
-  
+
   .container
     @include mixins.Container
-    font-size: 2rem
-    font-weight: 600
-    
+
     display: flex
-    align-items: center
-    justify-content: center
+    flex-direction: column
+    justify-content: space-between
 
     color: variables.$white
+
+    .kejoo
+      margin: 10rem 0 0 0
+
+      display: flex
+      justify-content: space-between
+
+      .address
+        margin: 3rem 0 0 0
+
+        display: flex
+        flex-direction: column
+        gap: 1rem
+
+        p
+          width: 37.83rem
+
+      .social
+        margin: 4rem 0 0 0
+
+        display: flex
+        align-items: center
+        gap: 3.5rem
+
+        button
+          width: 3.6rem
+          height: 3.6rem
+
+          background-color: red
+
+      .terms
+        display: flex
+        align-items: center
+        gap: 9.7rem
+
+        h4
+          margin: 0 0 3.4rem 0
+
+          font-size: 1.8rem
+          font-weight: 600
+          line-height: 2rem
+
+        ul
+          display: flex
+          flex-direction: column
+          gap: 2.8rem
+
+    .copyright
+      padding: 3.6rem
+
+      font-size: 1.4rem
+      font-weight: 600
+      line-height: 1.8rem
+
+      text-align: center
+      letter-spacing: .2rem
+
+      color: variables.$secondary
 
 @media screen and (max-width: 1260px)
   footer

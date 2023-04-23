@@ -84,7 +84,7 @@ const Pricing = () => {
           <div className='card-info'>
             <h3>Standard</h3>
             <div className='price'>
-              <h4>${isMonthly ? '9.99' : '39.99'}</h4>
+              <h4>${isMonthly ? '9.99' : '49.99'}</h4>
               <span>/{isMonthly ? 'Month' : 'Year'}</span>
             </div>
           </div>
@@ -143,7 +143,7 @@ const Pricing = () => {
           <div className='card-info'>
             <h3>Pro</h3>
             <div className='price'>
-              <h4>${isMonthly ? '19.99' : '69.99'}</h4>
+              <h4>${isMonthly ? '19.99' : '89.99'}</h4>
               <span>/{isMonthly ? 'Month' : 'Year'}</span>
             </div>
           </div>
