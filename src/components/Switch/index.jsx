@@ -5,9 +5,9 @@ const Switch = () => {
   return (
     <div className='switch-wrapper'>
       <p>Monthly</p>
-      <label class="switch">
+      <label className="switch">
         <input type="checkbox" />
-        <span class="slider round"></span>
+        <span className="slider round"></span>
       </label>
       <p>Annualy</p>
     </div>
