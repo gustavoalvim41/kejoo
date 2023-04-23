@@ -10,17 +10,19 @@ import Footer from '../../components/Footer';
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div>
       <Header />
 
       <main>
-        <Hero />
+        <div className='container'>
+          <Hero />
 
-        <Features />
-        
-        <Benefits />
+          <Features />
 
-        <Pricing />
+          <Benefits />
+
+          <Pricing />
+        </div>
       </main>
 
       <Footer />
