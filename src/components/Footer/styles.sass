@@ -1,7 +1,24 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+  
 footer
   width: 100%
   height: 48rem
 
   margin: 20rem 0 0 0
 
-  background-color: red
+  display: flex
+  justify-content: center
+
+  background-color: variables.$black
+  
+  .container
+    @include mixins.Container
+    font-size: 2rem
+    font-weight: 600
+    
+    display: flex
+    align-items: center
+    justify-content: center
+
+    color: variables.$white
