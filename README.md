@@ -1,8 +1,6 @@
 <h1 align="center">Kejoo Landing Page</h1>
 
 <div align="center" id="top">
-  <a href="https://kejoo.vercel.app/">Deploy</a>
-
   <img src="./github/kejoo-banner.png" alt="Kejoo Banner" />
 </div>
 
