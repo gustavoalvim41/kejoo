@@ -1,12 +1,17 @@
 import React from 'react';
 import './styles.sass';
 
-const Switch = () => {
+const Switch = ({isMonthly, setIsMonthly}) => {
+
+  const toggleSwitch = () => {
+    setIsMonthly(!isMonthly)
+  }
+  
   return (
     <div className='switch-wrapper'>
       <p>Monthly</p>
       <label className="switch">
-        <input type="checkbox" />
+        <input type="checkbox" onClick={toggleSwitch} />
         <span className="slider round"></span>
       </label>
       <p>Annualy</p>

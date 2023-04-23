@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.sass';
 
 import Switch from '../../../../components/Switch';
 
 const Pricing = () => {
+  const [isMonthly, setIsMonthly] = useState(true)
+
   return (
     <section className='pricing'>
       <div className='title-subtitle'>
@@ -11,7 +13,7 @@ const Pricing = () => {
         <p>Get the best package offer based on your business needs, regardless of the number of employees.</p>
       </div>
       
-      <Switch />
+      <Switch isMonthly={isMonthly} setIsMonthly={setIsMonthly} />
 
       <div className='cards-pricing'>
         <div className='card'>
@@ -47,8 +49,8 @@ const Pricing = () => {
           <div className='card-info'>
             <h3>Standard</h3>
             <div className='price'>
-              <h4>$9.99</h4>
-              <span>/Month</span>
+              <h4>${isMonthly ? '9.99' : '39.99'}</h4>
+              <span>/{isMonthly ? 'Month' : 'Year'}</span>
             </div>
           </div>
           <ul>
@@ -76,8 +78,8 @@ const Pricing = () => {
           <div className='card-info'>
             <h3>Pro</h3>
             <div className='price'>
-              <h4>$19.99</h4>
-              <span>/Month</span>
+              <h4>${isMonthly ? '19.99' : '69.99'}</h4>
+              <span>/{isMonthly ? 'Month' : 'Year'}</span>
             </div>
           </div>
           <ul>
