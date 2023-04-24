@@ -19,13 +19,15 @@ footer
     flex-direction: column
     justify-content: space-between
 
-    color: variables.$white
-
     .kejoo
       margin: 10rem 0 0 0
 
-      display: flex
-      justify-content: space-between
+      display: grid
+      grid-template-columns: 1fr 1fr
+      gap: 1rem
+      
+      .logo
+        cursor: pointer
 
       .address
         margin: 3rem 0 0 0
@@ -36,6 +38,8 @@ footer
 
         p
           width: 37.83rem
+
+          color: variables.$secondary
 
       .social
         margin: 4rem 0 0 0
@@ -53,7 +57,7 @@ footer
       .terms
         display: flex
         align-items: center
-        gap: 9.7rem
+        justify-content: space-around
 
         h4
           margin: 0 0 3.4rem 0
@@ -61,6 +65,11 @@ footer
           font-size: 1.8rem
           font-weight: 600
           line-height: 2rem
+
+          color: variables.$white
+
+        li
+          color: variables.$secondary
 
         ul
           display: flex
@@ -71,7 +80,7 @@ footer
       padding: 3.6rem
 
       font-size: 1.4rem
-      font-weight: 600
+      font-weight: 500
       line-height: 1.8rem
 
       text-align: center
@@ -88,30 +97,8 @@ footer
       gap: 5rem
 
       .kejoo
-        flex-direction: column
+        grid-template-columns: 1fr
         gap: 5rem
-
-        .info
-          display: flex
-          align-items: center
-          flex-direction: column
-          
-
-        .address
-          align-items: center
-          text-align: center
-
-          p
-            width: auto
-
-        .social
-          justify-content: center
-
-        .terms
-          justify-content: center
-          flex-direction: column
-          gap: 6rem
-          text-align: center
 
 @media screen and (max-width: 1060px)
 

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className='container'>
         <div className='kejoo'>
-          <div className='info'>
+          <div>
             <img
               className='logo'
               src={logoFooter}
@@ -28,25 +28,43 @@ const Footer = () => {
             <div>
               <h4>Company</h4>
               <ul>
-                <li>About Us</li>
-                <li>Blog</li>
-                <li>Testimonial</li>
+                <li>
+                  <a>About Us</a>
+                </li>
+                <li>
+                  <a>Blog</a>
+                </li>
+                <li>
+                  <a>Testimonial</a>
+                </li>
               </ul>
             </div>
             <div>
               <h4>Support</h4>
               <ul>
-                <li>FAQ</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Services</li>
+                <li>
+                  <a>FAQ</a>
+                </li>
+                <li>
+                  <a>Privacy Policy</a>
+                </li>
+                <li>
+                  <a>Terms of Services</a>
+                </li>
               </ul>
             </div>
             <div>
               <h4>Our Works</h4>
               <ul>
-                <li>Pricing</li>
-                <li>Customer</li>
-                <li>Product</li>
+                <li>
+                  <a>Pricing</a>
+                </li>
+                <li>
+                  <a>Customer</a>
+                </li>
+                <li>
+                  <a>Product</a>
+                </li>
               </ul>
             </div>
           </div>
