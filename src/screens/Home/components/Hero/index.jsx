@@ -5,7 +5,7 @@ import hero from '../../../../assets/hero.svg'
 
 const Hero = () => {
   return (
-    <section className='hero'>
+    <section id='hero' className='hero'>
       <article className='content'>
         <h1>Manage payroll & HR in your business so easily!</h1>
         <p>Kejoo's complete features make it easier for HRDs to manage and increase employee productivity in various locations. Save time and money.</p>

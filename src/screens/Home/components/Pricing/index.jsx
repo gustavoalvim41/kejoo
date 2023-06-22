@@ -9,7 +9,7 @@ const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true)
 
   return (
-    <section className='pricing'>
+    <section id='Price' className='pricing'>
       <div className='title-subtitle'>
         <h2>Price we offer</h2>
         <p>Get the best package offer based on your business needs, regardless of the number of employees.</p>
