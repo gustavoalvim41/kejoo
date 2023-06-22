@@ -3,6 +3,11 @@ import './styles.sass';
 
 import logoFooter from '../../assets/logo-footer.svg';
 
+import facebook from '../../assets/Facebook.png'
+import twitter from '../../assets/Twitter.png'
+import instagram from '../../assets/Instagram.png'
+
+
 const Footer = () => {
   return (
     <footer>
@@ -19,9 +24,15 @@ const Footer = () => {
               <p>Klaten, Gg. Hasana Yahya No. 315 B, RT. 001/RW. 003, Papandayan, Daerah Istimewa Yogyakarta, Indonesia 55161</p>
             </div>
             <div className='social'>
-              <button></button>
-              <button></button>
-              <button></button>
+              <button>
+                <img src={facebook} alt='facebook' />
+              </button>
+              <button>
+                <img src={twitter} alt='twitter' />
+              </button>
+              <button>
+                <img src={instagram} alt='instagram' />
+              </button>
             </div>
           </div>
           <div className='terms'> 
