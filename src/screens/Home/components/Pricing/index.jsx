@@ -194,7 +194,7 @@ const Pricing = () => {
               <p>Training online</p>
             </li>
           </ul>
-          <button>
+          <button className='btn-primary'>
             Try it free
           </button>
         </div>
