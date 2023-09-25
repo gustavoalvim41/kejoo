@@ -1,9 +1,3 @@
-<h1 align="center">Kejoo Landing Page</h1>
-
-<div align="center" id="top">
-  <img src="./github/kejoo-banner.png" alt="Kejoo Banner" />
-</div>
-
 ## ☕ Sobre o Projeto
 
 O projeto Kejoo é uma empresa fictícia que ofereceria soluções para gerenciamento de folha de pagamento e recursos humanos. foi desenvolvido com o objetivo de aprimorar minhas habilidades na criação de páginas web.
