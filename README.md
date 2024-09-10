@@ -11,6 +11,7 @@ O design do projeto foi elaborado por <a href="https://www.figma.com/@ilmaelfira
 ## 🚀 Tecnologias Utilizadas
 
 - React Js
+- Vite
 - Sass
 
 ## 📚 Pré-requisitos
